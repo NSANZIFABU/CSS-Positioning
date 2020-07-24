@@ -1,0 +1,140 @@
+body {
+  background-color: #eeeeee;
+}
+.main-page {
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eeeeee;
+  width: 100%;
+  height: 80px;
+}
+.nav-bar-logo-container {
+  display: flex;
+  flex-direction: row;
+}
+.logo-image {
+  height: 35px;
+}
+.menu-icon {
+  height: 35px;
+  margin-right: 10px;
+}
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 3%;
+}
+.menu-container div {
+  margin-left: 18px;
+}
+.menu-container div a {
+  color: black;
+  text-decoration: none;
+}
+.menu-container div a:hover {
+  color: blue;
+}
+.input-section-container {
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee;
+}
+.input-field {
+  margin-bottom: 8px;
+  height: 20px;
+  width: 200px;
+}
+.start-button {
+  background-color: #f1c40f;
+  font-weight: 900;
+  border: none;
+  height: 30px;
+  width: 120px;
+  cursor: pointer;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+  background-color: #eeeeee;
+}
+.body-sub-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-bottom: 15px;
+}
+.first-paragraph {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.paragraph-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.video {
+  margin: auto;
+}
+.box-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  width: 350px;
+  border: 2px solid black;
+  margin-left: 5%;
+}
+.box-title {
+  background-color: #dddddd;
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+.box-body {
+  margin: auto;
+}
+.select {
+  margin-left: 30%;
+}
+.footer-nav-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+.footer-nav-container div {
+  margin-left: 18px;
+}
+.footer-nav-container div a {
+  color: black;
+  text-decoration: none;
+}
+.footer-nav-container div a:hover {
+  color: blue;
+}
+.footer-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #dddddd;
+  width: 60%;
+  height: 75px;
+  margin-top: 5%;
+  margin-left: 20%;
+  align-items: flex-end;
+}
+.copyright {
+  text-align: right;
+  margin-right: 10px;
+}
